@@ -4,6 +4,7 @@ import Home from '../Components/Home'
 import NotFound from '../Components/NotFound'
 import Login from '../Components/Login'
 import Register from '../Components/Register'
+import Premium from '../Components/Premium'
 
 const RouterContext = () => {
     return (
@@ -12,6 +13,7 @@ const RouterContext = () => {
                 <Route path='/' element={<Home />} />
                 <Route path='/login' element={<Login />} />
                 <Route path='/register' element={<Register />} />
+                <Route path='/premium' element={<Premium />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </div>
