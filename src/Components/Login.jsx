@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
-import { Link } from 'react-router-dom'
 
 const Login = () => {
     return (
@@ -22,14 +21,14 @@ const Login = () => {
                             <input className='w-full text-zinc-600 py-2 px-4 mt-2 outline-none border border-[#3baaa885] focus:border-[#3BAAA9]' type="text" />
                         </div>
                         <div className='w-64 h-12 self-end mt-4 flex items-center justify-between'>
-                            <Link className='text-blue-600 transition-colors duration-300 ease-in-out hover:text-blue-400'>Forgot Password?</Link>
+                            <a href='/forgotPassword' className='text-blue-600 transition-colors duration-300 ease-in-out hover:text-blue-400'>Forgot Password?</a>
                             <button className='h-full px-8 border border-black font-medium text-zinc-500 transition-all duration-100 ease-in-out hover:bg-gradient-to-r to-[#F67122] from-[#3BAAA9] hover:border-none hover:text-white'>Login</button>
                         </div>
                     </form>
                     <h1 className='text-4xl text-center mt-16 mb-8 md:mb-4 font-bold bg-gradient-to-r to-[#F67122] from-[#3BAAA9] bg-clip-text text-transparent leading-tight md:whitespace-nowrap'>
                         Don't have an Account ?
                     </h1>
-                    <Link to='/register' className='py-3 px-8 border border-[#3BAAA9] font-medium text-zinc-500 transition-all duration-100 ease-in-out hover:bg-gradient-to-r to-[#F67122] from-[#3BAAA9] hover:border-none hover:text-white'>Register</Link>
+                    <a href='/register' className='py-3 px-8 border border-[#3BAAA9] font-medium text-zinc-500 transition-all duration-100 ease-in-out hover:bg-gradient-to-r to-[#F67122] from-[#3BAAA9] hover:border-none hover:text-white'>Register</a>
                 </div>
             </div>
             <Footer />

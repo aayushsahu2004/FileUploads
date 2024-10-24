@@ -11,19 +11,19 @@ const Footer = () => {
             </div>
             <div className=' w-full md:w-1/3 h-fit md:h-full flex flex-col items-center gap-2'>
                 <h1 className='font-bold text-xl text-white mb-3'>Ouick Links</h1>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Terminal Upload</Link>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Telegram Upload Bot</Link>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Telegram Group</Link>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Check Links</Link>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Our Links</Link>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Terminal Upload</a>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Telegram Upload Bot</a>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Telegram Group</a>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Check Links</a>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Our Links</a>
             </div>
             <div className='w-full md:w-1/3 h-fit md:h-full flex flex-col items-center gap-2'>
                 <h1 className='font-bold text-xl text-white mb-3'>Legal</h1>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>FAQ</Link>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>DMCA</Link>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Contact us</Link>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Privacy Policy</Link>
-                <Link className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Terms & Conditions</Link>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>FAQ</a>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>DMCA</a>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Contact us</a>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Privacy Policy</a>
+                <a href='' className='text-slate-900 font-medium text-sm transition-colors duration-300 ease-in-out hover:text-[#F67122]'>Terms & Conditions</a>
             </div>
         </div>
     )

@@ -80,7 +80,7 @@ const Premium = () => {
         <div className='w-full h-screen '>
             <Header />
             <div className='w-full min-h-screen bg-slate-200 md:px-20 pt-24 md:pt-10 pb-20'>
-                <h1 className='text-center font-bold text-3xl bg-gradient-to-r to-[#F67122] from-[#3BAAA9] bg-clip-text text-transparent leading-tight whitespace-nowrap'>Premium Packages</h1>
+                <h1 className='text-center'> <span className='font-bold text-3xl bg-gradient-to-r to-[#F67122] from-[#3BAAA9] bg-clip-text text-transparent leading-tight whitespace-nowrap'>Premium Packages</span></h1>
                 <p className='text-center text-lg text-zinc-500 mt-4'>Choose from one of our packages below</p>
                 <div className='w-full min-h-[96vh] md:h-[96vh] mt-6 flex flex-col md:flex-row items-center gap-8 md:gap-5 px-8 md:px-4'>
                     {
@@ -99,7 +99,7 @@ const Premium = () => {
                         ))
                     }
                 </div>
-                <div className='w-full min-h-[75vh] md:h-[75vh] mt-16 px-6 md:px-0'>
+                <div className='w-full min-h-[75vh] md:h-[75vh] mt-16 px-4 md:px-0'>
                     <h1 className='w-fit font-bold text-3xl bg-gradient-to-r to-[#F67122] from-[#3BAAA9] bg-clip-text text-transparent leading-tight whitespace-nowrap border-b-4 border-[#3baaa85b]'>Premium plans</h1>
                     <div className='w-full min-h-[65vh] md:h-[65vh] mt-5 flex flex-col md:flex-row items-center gap-6 md:gap-5'>
                         {
